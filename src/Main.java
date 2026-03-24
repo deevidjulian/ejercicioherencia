@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Main {
     public static void main(String[] args) {
 
@@ -54,3 +55,20 @@ public class Main {
 
     }
 }
+=======
+public class Main  main {
+    public  static  void main (String[] args){
+
+
+        empleado e1 = new empleadoadministrativosss();
+        empleadoadministrativosss ea1=new empleadoadministrativosss("e123456" , "pedro")
+        empleado ev1 = new empleadoadministrativosss();
+
+        empleado eh1 = new empleadoadministrativosss();
+
+
+
+    }
+
+}
+>>>>>>> d31045355ebe2a7a633a6964da119de5d2fe8c09
