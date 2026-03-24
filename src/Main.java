@@ -1,6 +1,10 @@
-<<<<<<< HEAD
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+        int subme;
 
         empleado e1 = new empleado("e123456", "pedro", 63, 2000000.0);
 
@@ -28,47 +32,30 @@ public class Main {
                     2.registro empleado ventas
                     3.registro empleado horas
                     4.mostrar todos los empleados 
-                    5. mostrar empleados por tipo 
+                    5.mostrar empleados por tipo 
                     6.salir                    
                     """);
 
-            submew = teclado.nextINT();
-            switch (subme){
-                case 1 :
-                    break;
+            subme = teclado.nextInt();
 
-                case 2 :
+            switch (subme) {
+                case 1:
                     break;
-
+                case 2:
+                    break;
                 case 3:
                     break;
-
                 case 4:
-                    System.out.println("volviendoi");
+                    System.out.println("volviendo");
                     break;
-
-
                 case 5:
-                break;
+                    break;
             }
-        }
 
+        } while (subme != 6);
+
+        teclado.close();
     }
 }
-=======
-public class Main  main {
-    public  static  void main (String[] args){
 
 
-        empleado e1 = new empleadoadministrativosss();
-        empleadoadministrativosss ea1=new empleadoadministrativosss("e123456" , "pedro")
-        empleado ev1 = new empleadoadministrativosss();
-
-        empleado eh1 = new empleadoadministrativosss();
-
-
-
-    }
-
-}
->>>>>>> d31045355ebe2a7a633a6964da119de5d2fe8c09

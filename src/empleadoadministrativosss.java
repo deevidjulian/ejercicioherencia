@@ -18,15 +18,14 @@ public class empleadoadministrativosss extends empleado{
         this.bonificacionFija = bonificacionFija;
     }
 
-<<<<<<< HEAD
+
     @Override
     public String toString() {
         return super.toString() +
                 ", bonificacionFija=" + bonificacionFija;
     }
 
-=======
->>>>>>> d31045355ebe2a7a633a6964da119de5d2fe8c09
+
     public void mostrarInf(){
         System.out.println("identificanio" +identificacion);
         System.out.println("nombre" + nombre);
@@ -35,15 +34,13 @@ public class empleadoadministrativosss extends empleado{
         System.out.println("bonificacion" +bonificacionFija);
 
     }
-<<<<<<< HEAD
+
 public void  registraradmin(){
        System.out.println("nombre");
-       String nombre==
+       String nombre;
 
 }
-=======
 
->>>>>>> d31045355ebe2a7a633a6964da119de5d2fe8c09
 
 
 }
